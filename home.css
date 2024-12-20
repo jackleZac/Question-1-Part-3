@@ -1,0 +1,53 @@
+/* Header styles */
+header {
+  background-color: #00796b; /* Darker teal */
+  padding: 15px 0;
+}
+
+header ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+header li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+/* Main Styles */
+body {
+  background-color: #e9f5ff; /* Light background */
+  font-family: Arial, sans-serif; /* Custom font */
+}
+h2 {
+  color: #007bff; /* Bootstrap primary color */
+  margin-top: 20px;
+}
+p {
+  font-size: 1.1em; /* Slightly larger text */
+  line-height: 1.6; /* Better readability */
+}
+.carousel-item img {
+  max-height: 400px; /* Set a max height for images */
+  object-fit: cover; /* Ensure images cover the area */
+}
+.carousel-indicators li {
+  background-color: #007bff; /* Custom indicator color */
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 123, 255, 0.5); /* Semi-transparent control icons */
+}
+.container {
+  padding: 20px; /* Add some padding to the container */
+}
